@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
+.ulcon{
+    display: inline-flexbox;
+}

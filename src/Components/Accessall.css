@@ -2,6 +2,25 @@
     box-sizing: border-box;
 }
 
-.ulcon{
-    display: inline-flexbox;
+
+
+.list-group-item{
+    max-width: 250px;
+    /* display: inline-block; */
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+.cont {
+    float: left;
+        width: 33.33%;
+        padding: 10px;
+        height: 300px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }

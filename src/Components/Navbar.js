@@ -33,6 +33,7 @@ export default function Navbar(props) {
                     </div>
                 </div>
             </nav>
+            <h6 className='mx-4 my-2'>Welcome {props.name} | <a href="/">edit profile</a></h6>
         </>
     )
 }

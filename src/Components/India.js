@@ -1,9 +1,10 @@
 import React from 'react'
 import Accessall from './Accessall'
+import './India.css'
 export default function India(props) {
     return (
         <>
-            <h6 className='mx-4 my-2'>Welcome {props.name} | <a href="/">edit profile</a></h6>
+            
 
             <div className="container my-5">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">

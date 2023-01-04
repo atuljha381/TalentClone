@@ -5,8 +5,11 @@ import India from './Components/India';
 function App() {
   return (
     <>
-      <Navbar first="India" second="Global"/>
-      <India name="Atul"></India>
+      <Navbar first="India" second="Global" name="Atul" />
+      <div className='container'>
+
+        <India></India>
+      </div>
     </>
   );
 }

@@ -1,11 +1,8 @@
 import React from 'react'
 import Accessall from './Accessall'
-import './India.css'
 export default function India(props) {
     return (
         <>
-            
-
             <div className="container my-5">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <ul className="navbar-nav nav-tabs">
